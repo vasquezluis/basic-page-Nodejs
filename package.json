@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-first-project",
+  "version": "1.0.0",
+  "description": "Codigo para una pagina web sencilla usando Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasquezluis/basic-page-Nodejs.git"
+  },
+  "keywords": [],
+  "author": "Luis Vasquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasquezluis/basic-page-Nodejs/issues"
+  },
+  "homepage": "https://github.com/vasquezluis/basic-page-Nodejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
