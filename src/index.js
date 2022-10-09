@@ -14,6 +14,8 @@ app.set('view engine', 'ejs');
 
 app.use(indexRoutes)
 
+app.use(express.static(join(__dirname, 'public')))
+
 app.listen(port, () => {
   console.log(`Server listen on http://localhost: ${port}`);
 })
